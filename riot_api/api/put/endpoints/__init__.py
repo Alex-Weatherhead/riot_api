@@ -1,5 +1,5 @@
 import json
 
-_ENDPOINTS_V4_FILENAME = "./riot_api/api/put/endpoints_v4.json"
+_ENDPOINTS_V4_FILENAME = "./riot_api/api/put/endpoints/endpoints_v4.json"
 with open(_ENDPOINTS_V4_FILENAME, "r") as fp:
     v4 = json.load(fp)

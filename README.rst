@@ -1,4 +1,4 @@
-riot_apiv0.0.1
+riot_apiv0.0.2
 ==============
 
 Making API Calls

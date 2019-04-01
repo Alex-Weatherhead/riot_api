@@ -1,10 +1,13 @@
 from setuptools import setup, find_packages
 
 name = "Riot API"
-version = "0.0.3"
+version = "0.0.7"
 author = "Kristian Alexander Weatherhead"
 url = "https://github.com/Alex-Weatherhead/riot_api"
-packages = ["riot_api"]
+packages = find_packages()
+package_data = {
+    '': ['*/endpoints/*.json'],
+}
 description = "A thin wrapper around the Riot Games API for League of Legends."
 with open("README.rst", "r") as f:
     long_description = f.read()
@@ -21,6 +24,7 @@ setup(
     author=author,
     url=url,
     packages=packages,
+    package_data=package_data,
     description=description,
     long_description=long_description,
     long_description_content_type=long_description_content_type,

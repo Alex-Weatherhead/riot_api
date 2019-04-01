@@ -1,4 +1,4 @@
-riot_apiv0.0.7
+riot_apiv0.0.8
 ==============
 
 You can find this project on GitHub at: https://github.com/Alex-Weatherhead/riot_api

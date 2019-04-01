@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 name = "Riot API"
-version = "0.0.2"
+version = "0.0.3"
 author = "Kristian Alexander Weatherhead"
 url = "https://github.com/Alex-Weatherhead/riot_api"
 packages = ["riot_api"]

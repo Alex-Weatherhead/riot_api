@@ -1,5 +1,9 @@
-riot_apiv0.0.2
+riot_apiv0.0.3
 ==============
+
+You can find this project on GitHub at: https://github.com/Alex-Weatherhead/riot_api
+
+You can find this project on PyPi at: https://pypi.org/manage/project/Riot-API/releases/
 
 Making API Calls
 -----------------

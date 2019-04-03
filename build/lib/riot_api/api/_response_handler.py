@@ -41,7 +41,7 @@ def handle (response):
 
         return {
             "successful": False,
-            "status": { 
+            "error": { 
                 "status_code": 403,
                 "reason": "Forbidden"
             },
@@ -52,7 +52,7 @@ def handle (response):
 
         return {
             "successful": False,
-            "status": {
+            "error": {
                 "status_code": 404,
                 "reason": "Not Found"
             },
@@ -64,7 +64,7 @@ def handle (response):
 
         return {
             "successful": False,
-            "status": {
+            "error": {
                 "status_code": 403,
                 "reason": "Unsupported Media Type"
             },
@@ -75,7 +75,7 @@ def handle (response):
 
         return {
             "successful": False,
-            "status": {
+            "error": {
                 "status_code": 429,
                 "reason": "Rate Limit Exceeded"
             },
@@ -87,7 +87,7 @@ def handle (response):
 
         return {
             "successful": False,
-            "status": {
+            "error": {
                 "status_code": 500,
                 "reason": "Internal Server Error"
             },
@@ -99,7 +99,7 @@ def handle (response):
 
         return {
             "successful": False,
-            "status": {
+            "error": {
                 "status_code": 502,
                 "reason": "Bad Gateway"
             },
@@ -111,7 +111,7 @@ def handle (response):
 
         return {
             "successful": False,
-            "status": {
+            "error": {
                 "status_code": 503,
                 "reason": "Service Unavailable"
             },
@@ -123,7 +123,7 @@ def handle (response):
 
         return {
             "successful": False,
-            "status": {
+            "error": {
                 "status_code": 504,
                 "reason": "Gateway Timeout"
             },
